@@ -7,7 +7,7 @@ import logo from './logo.jpg'
 
 function App() {
   return (
-      <div className="App">
+      <div className="container">
         <img className="logo" src={logo} alt="logo"/>
         <Launches/>
       </div>
