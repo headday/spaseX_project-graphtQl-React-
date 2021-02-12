@@ -12,7 +12,7 @@ const LaunchItem = (props) => {
             <p>Date: {props.date_local}</p>
             </div>
             <div className="col-md-3">
-                <Link to={`/launch/${props.flight_number}`}><button className="btn btn-secondary">Details</button></Link>
+                <Link to={`/launch/${props.id}`}><button className="btn btn-secondary">Details</button></Link>
             </div>
         </div>
      
