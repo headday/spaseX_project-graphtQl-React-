@@ -20,7 +20,13 @@ function App() {
     <ApolloProvider client={client}>
       <Router>
         <div className="container">
-          <img className="logo" src={logo} alt="logo"/>
+          <img className="logo" 
+          style=" display: block;
+                  margin: 0 auto;
+                  width: 400px;
+                  height: 250px;
+                  margin-top: 10px;" 
+          src={logo} alt="logo"/>
           <Route exact path="/" component={Launches}/>
           <Route path="/launch/:id" component={Launch}/>
         </div>
