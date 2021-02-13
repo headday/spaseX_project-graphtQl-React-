@@ -13,7 +13,6 @@ import {useHistory} from 'react-router-dom'
         flight_number
         details
     }
-
 }
 `; 
 const Launch = (props) => {

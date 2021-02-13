@@ -25,10 +25,7 @@ function App() {
           <Route path="/launch/:id" component={Launch}/>
         </div>
       </Router>
-      
     </ApolloProvider>
-     
-    
   );
 }
 
